@@ -71,15 +71,15 @@ model_drift_monitor/
 │ ├── train.csv # Training / baseline data
 │ ├── new_data.csv # Incoming production data
 │
+├── notebooks/
+|   ├── exploration.ipynb 
+|
 ├── src/
-│ ├── data_loader.py # Data loading utilities
 │ ├── stats_profile.py # Training data profiling
 │ ├── drift_detector.py # Drift detection logic
 │ ├── monitor.py # System-level decision logic
 │ └── main.py # Pipeline runner
 │
-├── tests/
-│ └── test_drift.py # Unit tests (optional)
 │
 ├── requirements.txt
 └── README.md
