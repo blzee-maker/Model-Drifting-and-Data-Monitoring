@@ -1,0 +1,6 @@
+# Development dependencies (includes everything in requirements.txt)
+-r requirements.txt
+
+pytest>=8.0
+jupyter>=1.0
+matplotlib>=3.7

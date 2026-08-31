@@ -1,0 +1,12 @@
+# Normalize line endings on commit; check out native on each platform.
+* text=auto
+
+*.py    text diff=python
+*.md    text
+*.yml   text
+*.txt   text
+*.csv   text
+*.ipynb text
+
+*.png binary
+*.jpg binary
